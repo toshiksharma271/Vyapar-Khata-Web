@@ -1,0 +1,23 @@
+node_modules/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Build and framework output
+dist/
+.vercel/
+.tanstack/
+.nitro/
+.output/
+
+# Local caches and logs
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+
+# Editor and operating-system files
+.vscode/
+!.vscode/extensions.json
