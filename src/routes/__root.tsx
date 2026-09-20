@@ -18,6 +18,7 @@ export const Route = createRootRoute({
           "Vyapar Khata, GST invoicing, double-entry bookkeeping, billing software India, HSN SAC, accounting app, व्यापार खाता, GST invoice app, Google Drive backup accounting",
       },
       { name: "robots", content: "index,follow" },
+      { name: "google-site-verification", content: "lwMHZXDqPhIA87WpbiQrvLvPMPmyfh-nRG_iPw3d7mc" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: SITE.websiteUrl },
       { property: "og:title", content: `${SITE.name} | ${SITE.tagline}` },
